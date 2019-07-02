@@ -1,0 +1,366 @@
+@import url(https://weloveiconfonts.com/api/?family=zocial);
+/* header */
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content : space-between;               
+    border-bottom: 3px solid red;
+}
+body{
+    display: flex
+}
+.asaid{
+    border: 25% solid rgb(221,224,226);
+    background-color: rgb(245,245,246);
+    margin: 1%;
+    width: 15%;
+
+}
+.aside{
+    flex-direction: column;
+    padding: 30px
+
+}
+.form{
+    padding: 25px;    
+    background-color: rgb(239,241,241)   
+}
+.input{
+    color: rgb(221,224,226);
+    border-radius: 5px;
+}
+
+.titulo{
+    padding-top: 20px; 
+    font-size: 30px;
+    border-bottom: 3px solid red;
+    width: 40%
+}
+.selccion{
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+    
+.selccion>li{
+    font-size: 20px;
+    padding-top:10px;
+    padding-bottom: 10px; 
+    display: block;
+    border-bottom: 2px solid rgb(206, 206, 206); 
+}
+
+.selccion>li>a{
+    text-decoration: none;
+    color: black     
+}
+.imagennes{
+    border-bottom: 2px solid  rgb(155, 153, 153);
+    display: flex;
+    flex-direction: column;
+    border: 4px solid red
+  
+}
+.im{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.parr{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    padding: 10px;
+    border-bottom: 1px solid rgb(155, 153, 153);
+}
+.titulo1{
+    padding-top: 20px; 
+    font-size: 30px;
+    border-bottom: 3px solid red;
+    width: 90%
+}
+
+.social-link1{
+    padding: 10px;
+    border-bottom: 1px solid rgb(155, 153, 153);
+}
+
+
+.iconos{
+    display: flex;
+    list-style-type: none
+}
+.l{
+    width:  75%;
+}   
+.social-link{
+    color: black;
+    margin-left: 10px;
+    border: none;
+    text-decoration: none
+}
+body{
+    padding: 5%;
+}
+.pag{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+}
+.prime{
+    display: flex;
+    justify-content :space-between;  
+    height: 100%;
+    width: 100%;
+    
+
+}
+.div-pri{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgb(221,224,226);
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.div-seg{
+    display: flex;
+    flex-direction: column;    
+    width: 50%;
+}
+.h1{
+    font-size: 40px;    
+}
+.h2{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+}
+.h3{
+    display: flex;
+    align-items: flex-end;
+    font-size: 15px;
+    color: grey;
+    margin-top: 2%;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid red;
+    color:red;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 4px;
+    width: 100px;
+    height: 35px;
+}
+button:hover { 
+    background-color: rgb(245, 62, 62);
+    color: white;
+}
+.conteinerimg{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.mediana{
+    width: 100%;
+    height: auto;
+    border-radius: 4px
+}
+/* section2 */
+.lo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgb(221,224,226);
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.textosecundario{
+    font-size: 135%;
+    border-bottom: 3px solid red;
+    width: 7%;
+    height: auto;
+}
+.conte{
+    display: flex;
+    justify-content :space-between;  
+    height: 100%;
+    width: 100%;
+}
+.rotate{
+    padding: 2%;
+    margin: 5%;
+    border: 2px solid red;
+    transform: rotate(45deg);
+    width: 19px;
+
+
+}
+.link{
+    color: black;
+    border: none;
+    text-decoration: none;
+    margin: auto;
+    transform: rotate(315deg)
+
+}
+.contimg1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.text1{
+    margin: auto;
+    display: flex;
+    flex-direction: column;    
+    width: 75%;
+}
+.contimg2{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.text2{
+    margin: auto;
+    display: flex;
+    flex-direction: column;    
+    width: 75%;
+}
+
+/* section 3 */
+
+.textoterciario{
+    font-size: 135%;
+    border-bottom: 3px solid red;
+    width: 10%;
+    height: auto;
+}
+
+.contetrhee{
+    display: flex;
+    justify-content :space-between;
+    height: 100%;
+    width: 100%;    
+}
+
+.conte3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    padding: 20px;
+    border-right: 2px solid rgb(221,224,226); 
+}
+.contimg{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.conttex{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+
+
+
+@media (max-width: 500px) {
+    header{
+        width: 100%;
+        height: auto;
+    }
+    .div-pri{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .h1{
+        font-size: 20px
+    }
+    .h2{
+        font-size: 11px;
+    }
+    .h3{
+        font-size: 10px;
+    }
+    .div-seg{
+        width: 100%;
+        height: 100%;
+    }
+    .conteinerimg{
+        width: 100%;
+        height: 100%; 
+    }
+
+    /* segunda seccion */
+    .textosecundario{
+        font-size: 100%;
+        width: 40%
+
+    }
+    .conte{
+        display: flex;
+        flex-direction: column;
+    }
+    .contimg1{
+        width: 100%;
+        height: 100%;
+    }
+    .text1{
+        width: 100%;
+        height: 100%;
+    }
+    .contimg2{
+        width: 100%;
+        height: 100%;
+    }
+    .text2{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* tercera seccion */
+    .textoterciario{
+        width: 60%;
+    }
+    .conte3{
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+    .contenedor1{
+        width: 100%;
+        height: 100%;
+        border-bottom: 2px solid rgb(221,224,226);
+    }
+    .contimg{
+        width: 100%;
+        height: auto;
+    }
+    .conttext{
+        width: 100%;
+        height: 100%;
+    }
+    .l{width: 100%}
+    .asaid{
+        width: 0%;
+        visibility: hidden
+    }
+}
+
+ 
